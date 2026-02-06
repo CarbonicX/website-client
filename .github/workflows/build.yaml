@@ -30,6 +30,7 @@ jobs:
           node silicon-compiler/compiler.cjs
           npx tsc
           rm .gitignore
+          mv deploy.gitignore .gitignore
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
