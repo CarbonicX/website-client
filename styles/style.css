@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "PuHui";
+    src: url("../assets/puhui.ttf") format("truetype");
+}
+
+#nav {
+    width: 100%;
+}
+
+#body {
+    height: 100%;
+}
+
+#logo {
+    font-family: "PuHui";
+    font-size: 30px;
+}
+
+.nav_link {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav_link:hover {
+    cursor: pointer;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+

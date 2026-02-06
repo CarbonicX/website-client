@@ -1,0 +1,9 @@
+widget NavBar() {
+    nav = Nav(
+        HBox({
+            logo = Text("Carbo"): nav_link,
+            Stretch(1),
+            about = Text("关于"): nav_link
+        })
+    )
+}

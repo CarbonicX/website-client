@@ -1,0 +1,15 @@
+widget AboutPage(date) {
+    page = Page(
+        VBox({
+            Text("Welcome!"): title,
+            Text("Here is the homepage of CarbonicX."),
+            Text($"`So far, the website has been running well for ${date} days.`"),
+            button = Button("Get a message from server"),
+            HBox({
+                Text("Build with Silicon v1.0.0-alpha"),
+                Image("assets/silicon.png")
+            })
+        })
+        ,"card"
+    )
+}
