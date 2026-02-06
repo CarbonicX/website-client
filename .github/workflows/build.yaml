@@ -31,6 +31,9 @@ jobs:
       - name: Compile Typescript
         run: npx tsc
 
+      - name: Test
+        run: ls
+
       - name: Depoly
         uses: JamesIves/github-pages-deploy-action@v4
         with:
