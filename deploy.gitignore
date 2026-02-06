@@ -9,4 +9,7 @@
 !styles/
 !styles/**/*
 
+!silicon-lib/styles/
+!silicon-lib/styles/**/*
+
 !index.html
