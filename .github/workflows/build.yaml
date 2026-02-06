@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Compile Silicon
-        run: silicon-compiler/silicon.bat
+        run: node silicon-compiler/compiler.cjs
 
       - name: Compile Typescript
         run: npx tsc
