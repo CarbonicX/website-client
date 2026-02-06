@@ -9,6 +9,7 @@
 !styles/
 !styles/**/*
 
+silicon-lib/*
 !silicon-lib/styles/
 !silicon-lib/styles/**/*
 
