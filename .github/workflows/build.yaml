@@ -25,16 +25,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Compile Silicon
-        run: node silicon-compiler/compiler.cjs
+      - name: Compile and prepare for deploy
+        run: |
+          node silicon-compiler/compiler.cjs
+          npx tsc
+          rm .gitignore
 
-      - name: Compile Typescript
-        run: npx tsc
-
-      - name: Test
-        run: ls
-
-      - name: Depoly
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
