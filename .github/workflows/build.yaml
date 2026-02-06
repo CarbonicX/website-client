@@ -27,7 +27,7 @@ jobs:
         run: npx tsc
 
       - name: Depoly
-        uses: JamesIves/github-pages-depoly-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: /
