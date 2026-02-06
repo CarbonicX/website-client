@@ -7,7 +7,7 @@ widget AboutPage(date) {
             button = Button("Get a message from server"),
             HBox({
                 Text("Build with Silicon v1.0.0-alpha"),
-                Image("assets/silicon.png")
+                Image("public/silicon.png")
             })
         })
         ,"card"
