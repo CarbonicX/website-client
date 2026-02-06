@@ -10,8 +10,10 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
+      - uses: actions/checkout@v4
+      
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: "22"
 
@@ -23,3 +25,9 @@ jobs:
 
       - name: Compile Typescript
         run: npx tsc
+
+      - name: Depoly
+        uses: JamesIves/github-pages-depoly-action@v4
+        with:
+          branch: gh-pages
+          folder: /
