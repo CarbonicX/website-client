@@ -1,6 +1,12 @@
 *
 
 !assets/
+!assets/**/*
+
 !dist/
+!dist/**/*
+
 !styles/
+!styles/**/*
+
 !index.html
