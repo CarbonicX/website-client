@@ -1,0 +1,1 @@
+{"version":3,"file":"footer.d.ts","sourceRoot":"","sources":["../../../silicon-lib/widgets/footer.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,UAAU,EAAE,MAAM,4BAA4B,CAAC;AAE3E,qBAAa,MAAO,SAAQ,iBAAiB;IACzC,SAAS,CAAC,QAAQ,EAAE,WAAW,CAAC;gBACpB,EAAE,EAAE,MAAM,GAAG,IAAI,EAAE,OAAO,EAAE,MAAM,EAAE,EAAE,MAAM,EAAE,UAAU;CASvE"}

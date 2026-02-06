@@ -1,0 +1,1 @@
+{"version":3,"file":"navbaro.d.ts","sourceRoot":"","sources":["../../overwrites/navbaro.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,wBAAwB,CAAA;AAG/C,qBAAa,OAAQ,SAAQ,MAAM;gBACnB,EAAE,EAAE,MAAM,GAAG,IAAI,EAAE,OAAO,EAAE,MAAM,EAAE;IAYhD,KAAK,CAAC,OAAO,EAAE,WAAW;CAG7B"}
