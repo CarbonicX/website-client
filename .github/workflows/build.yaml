@@ -25,6 +25,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Download compiler
+        run: |
+          sudo apt install unzip
+          wget https://github.com/CarbonicX/Silicon/releases/download/v1.0.1-alpha/release.zip
+          unzip release.zip
+
       - name: Compile and prepare for deploy
         run: |
           node silicon-compiler/compiler.cjs
